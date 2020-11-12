@@ -1,0 +1,16 @@
+body {
+    background-color: white;;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap; /* Display the shops in a Flex layout*/
+    text-align: left;
+    /* justify-content: center;  */ 
+    justify-content: space-evenly;
+}
+.shop {
+    border: 1.5px dotted;
+    padding: 0em;
+    flex-basis: 30%;
+    margin: 0em;
+}
